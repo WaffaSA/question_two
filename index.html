@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+    
+    <title>Masdr</title>
+</head>
+<body>
+
+    <section class="container">
+        <h2 class="title"> Sign Up Form Example </h2>
+        <div id="thank_you"></div>
+        <form id="signup_form">
+            <div class="row mb-4">
+                <div class="col-sm-6">
+              <label for="firstName" class="form-label">First Name: <span>*</span> </label>
+                <input type="text" class="form-control" id="firstName" required>
+                </div>
+              <div class="col-sm-6">
+                <label for="lastName" class="form-label">Last Name: <span>*</span> </label>
+                <input type="text" class="form-control" id="lastName" required>
+              </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-sm-12">
+                <label for="organization" class="form-label">Organization: </label>
+                  <input type="text" class="form-control" id="organization">
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-sm-12">
+                <label for="email" class="form-label">Email Address: <span>*</span> </label>
+                  <input type="email" class="form-control" id="email" required>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-sm-4">
+                <label for="work-phone" class="form-label">Work Phone: </label>
+                  <input type="number" class="form-control" id="work-phone">
+                  </div>
+
+                <div class="col-sm-4">
+                <label for="home-phone" class="form-label">Home Phone: </label>
+                  <input type="number" class="form-control" id="home-phone">
+                  </div>
+
+                <div class="col-sm-4">
+                    <label for="cell-phone" class="form-label">Cell Phone: </label>
+                  <input type="number" class="form-control" id="cell-phone">
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-sm-4">
+                    <label for="fax" class="form-label">Fax: </label>
+                  <input type="number" class="form-control" id="fax">
+                </div>
+
+                <div class="col-sm-4">
+                <label for="address-1" class="form-label">Address 1: <span>*</span></label>
+                  <input type="text" class="form-control" id="address-1" required>
+                </div>
+
+                
+                <div class="col-sm-4">
+                    <label for="address-2" class="form-label">Address 2: </label>
+                  <input type="text" class="form-control" id="address-2">
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-sm-5">
+                <label for="city" class="form-label">City: <span>*</span></label>
+                  <input type="text" class="form-control" id="city" required>
+                </div>
+
+                
+                <div class="col-sm-5">
+                    <label for="state" class="form-label">State: </label>
+                  <input type="text" class="form-control" id="state">
+                </div>
+
+                
+                <div class="col-sm-2">
+                    <label for="z-code" class="form-label">ZIP Code: </label>
+                  <input type="number" class="form-control" id="z-code">
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-sm-12">
+                <label for="country" class="form-label">Country: <span>*</span></label>
+                  <input type="text" class="form-control" id="country">
+                </div>
+            </div>
+            <button id="submit" type="submit" class="btn">Submit</button>
+          </form>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

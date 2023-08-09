@@ -1,0 +1,46 @@
+body {
+    padding: 0;
+    margin: auto;
+    font-family: 'Outfit', sans-serif;
+}
+
+section {
+    margin: auto;
+}
+
+.title {
+    color: #483d8b;
+    margin: 30px .5rem;
+    font-weight: bold;
+}
+
+form {
+    padding: 2rem;
+    background-color: #fafafa;
+    border-radius: 0;
+}
+
+label {
+    color: #333
+}
+
+label span {
+    color: crimson;
+}
+
+.btn {
+    background-color: #483d8b;
+    padding: 10px 35px;
+    border: 1.5px solid #483d8b !important;
+    color: #fff
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: #483d8b;
+}
+
+#thank_you {
+    background-color: #fafafa;
+    padding: 1rem;
+}
